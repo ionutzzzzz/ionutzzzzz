@@ -24,8 +24,9 @@ I build across the stack: from **numerical methods and data pipelines** to **nat
 |:--|:--|:--|
 | **Compute** | Numerical modeling, simulation, signal processing, scientific toolboxes | [UniLab](https://github.com/ionutzzzzz/UniLab) |
 | **Data & intelligence** | Classification, exploratory analysis, knowledge-based systems | [Kaggle](https://github.com/ionutzzzzz/Kaggle) · [Smart-System](https://github.com/ionutzzzzz/Smart-System) |
-| **Application engineering** | Cross-platform UX, web products, local-first workflows | [UniLab](https://github.com/ionutzzzzz/UniLab) · [OSUT App](https://github.com/osutcj/osut-app) |
+| **Application engineering** | Cross-platform UX, web products, local-first workflows | [UniLab](https://github.com/ionutzzzzz/UniLab) · [OSUT App](https://github.com/osutcj/osut-app) · [PBINFO-copy](https://github.com/ionutzzzzz/PBINFO-copy) |
 | **Systems** | Rust, FFI, WebAssembly, local-first execution | [UniLab](https://github.com/ionutzzzzz/UniLab) |
+| **Developer education** | Interactive ML curriculum, exercises, self-checking notebooks | [Jupyter-Exercises](https://github.com/ionutzzzzz/Jupyter-Exercises) |
 
 ## 02 / Selected projects
 
@@ -51,6 +52,38 @@ flowchart LR
 ### [Kaggle](https://github.com/ionutzzzzz/Kaggle) — applied machine learning
 
 Competition work spanning classification, regression, feature analysis, and model evaluation. The repository includes reproducible notebooks and project artifacts built with **Python, pandas, NumPy, and scikit-learn**.
+
+### [Jupyter-Exercises](https://github.com/ionutzzzzz/Jupyter-Exercises) — interactive machine-learning curriculum
+
+A hands-on learning path with **24 core chapters plus 7 case studies**, moving from data preparation and classical ML to deep learning, reinforcement learning, computer vision, graph ML, and explainable AI. Notebooks pair mathematical foundations with runnable examples, graded exercises, and a self-checking API.
+
+<details>
+  <summary><strong>Curriculum map</strong></summary>
+
+  - **Foundations:** NumPy/Pandas, data cleaning, visualization, regression, trees, SVMs, clustering, and feature engineering.
+  - **Modeling:** cross-validation, ensembling, imbalanced learning, Optuna tuning, semi-supervised learning, and anomaly detection.
+  - **Specialized:** neural networks, time series/ARIMA, NLP, recommenders, association rules, reinforcement learning, computer vision, graph ML, and XAI.
+  - **Case studies:** churn, housing, sentiment, classification, segmentation, forecasting, and fraud detection.
+</details>
+
+### [PBINFO-copy](https://github.com/ionutzzzzz/PBINFO-copy) — multi-language programming judge
+
+A programming-contest platform with a **React 19 frontend**, **Flask API**, and **SQLite** persistence for problems and submissions. Submitted programs run in per-language Docker images for Python, C, C++, Java, JavaScript, and Go.
+
+- Execution containers run without network access and use a read-only source mount at runtime.
+- Resource guardrails are configurable; defaults include **256 MiB memory**, **64 processes**, and a **30-second run timeout**.
+- A bounded worker pool limits parallel execution (default: **4 concurrent containers**).
+
+```mermaid
+flowchart LR
+    U[React contest UI] --> A[Flask API]
+    A --> Q[Bounded submission workers]
+    Q --> C[Docker compile and run]
+    C -->|stdout · stderr · verdict| A
+    A --> D[(SQLite problems and submissions)]
+    classDef node fill:#101c2e,stroke:#8c7cff,color:#e8f2ff
+    class U,A,Q,C,D node
+```
 
 ### [Smart-System](https://github.com/ionutzzzzz/Smart-System) — knowledge-based systems
 
@@ -80,9 +113,12 @@ A small browser-based launcher for self-hosted VS Code servers, built with **HTM
       <strong>FRAMEWORKS & INTEROP</strong><br /><br />
       <img src="https://img.shields.io/badge/Flutter-173B57?style=flat-square&logo=flutter&logoColor=54C5F8" alt="Flutter" />
       <img src="https://img.shields.io/badge/React-173B57?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
+      <img src="https://img.shields.io/badge/Flask-24292E?style=flat-square&logo=flask&logoColor=white" alt="Flask" />
       <img src="https://img.shields.io/badge/WebAssembly-30244D?style=flat-square&logo=webassembly&logoColor=8C7CFF" alt="WebAssembly" />
+      <img src="https://img.shields.io/badge/Docker-173B57?style=flat-square&logo=docker&logoColor=2496ED" alt="Docker" />
+      <img src="https://img.shields.io/badge/SQLite-173B57?style=flat-square&logo=sqlite&logoColor=54C5F8" alt="SQLite" />
       <img src="https://img.shields.io/badge/Jupyter-482C1B?style=flat-square&logo=jupyter&logoColor=F37726" alt="Jupyter" />
-      <br /><br />Flutter · React · FFI · WebAssembly · scientific notebooks
+      <br /><br />Flutter · React · Flask · Docker · FFI · WebAssembly · SQLite
     </td>
   </tr>
   <tr>
@@ -91,7 +127,7 @@ A small browser-based launcher for self-hosted VS Code servers, built with **HTM
       <img src="https://img.shields.io/badge/NumPy-20334D?style=flat-square&logo=numpy&logoColor=4DABCF" alt="NumPy" />
       <img src="https://img.shields.io/badge/pandas-28244A?style=flat-square&logo=pandas&logoColor=white" alt="pandas" />
       <img src="https://img.shields.io/badge/scikit--learn-45311D?style=flat-square&logo=scikitlearn&logoColor=F7931E" alt="scikit-learn" />
-      <br /><br />Simulation · model evaluation · signal processing · knowledge systems
+      <br /><br />SciPy · statsmodels · Optuna · Matplotlib · Seaborn · simulation · model evaluation · signal processing
     </td>
     <td width="50%" valign="top">
       <strong>ENGINEERING WORKFLOW</strong><br /><br />
