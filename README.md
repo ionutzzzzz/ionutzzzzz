@@ -1,40 +1,51 @@
 <div align="center">
 
-# Hi, I'm Ionuț 👋
+![Ionuț — Software systems and applied computing](./assets/profile-header.svg)
 
-### Computer science student building useful software and exploring how things work.
+### Software • Systems • Applied computing
 
-[![GitHub](https://img.shields.io/badge/GitHub-ionutzzzzz-181717?style=flat&logo=github)](https://github.com/ionutzzzzz)
+I build practical software and explore the ideas behind it—from **local-first scientific tools** and **machine learning** to **cross-platform apps** and **embedded systems**.
+
+[Projects](#02--selected-projects) · [Toolbox](#03--toolbox) · [GitHub repositories](https://github.com/ionutzzzzz?tab=repositories)
 
 </div>
 
 ---
 
-I work across **software development, machine learning, and embedded systems**. My projects range from computer vision experiments and data science notebooks to cross-platform apps and systems tools.
+## 01 / Engineering focus
 
-## Selected projects
+- **Scientific computing:** simulation, numerical methods, signal processing, and mathematical tooling.
+- **Intelligent applications:** computer vision, data science, and knowledge-based systems.
+- **Systems and interfaces:** cross-platform software, local-first architecture, and embedded projects.
 
-| Project | What it is | Built with |
-| --- | --- | --- |
-| [UniLab](https://github.com/ionutzzzzz/UniLab) | A local-first environment for mathematical simulation and analysis | Flutter · Dart · Rust · Python |
-| [Smart-System](https://github.com/ionutzzzzz/Smart-System) | Knowledge-based systems laboratory project | Python |
-| [Kaggle](https://github.com/ionutzzzzz/Kaggle) | Notebooks and projects for data science competitions | Python · Jupyter |
-| [VS-CodeServer](https://github.com/ionutzzzzz/VS-CodeServer) | A browser-based launcher for your VS Code servers | HTML · CSS · JavaScript |
+## 02 / Selected projects
 
-## What I use
+| Project | Focus | Stack |
+|:--|:--|:--|
+| [UniLab](https://github.com/ionutzzzzz/UniLab) | Local-first environment for mathematical simulation and analysis | Rust · Flutter · Dart · Python |
+| [Smart-System](https://github.com/ionutzzzzz/Smart-System) | Knowledge-based systems laboratory work | Python · Jupyter |
+| [Kaggle](https://github.com/ionutzzzzz/Kaggle) | Data exploration and machine-learning competition notebooks | Python · pandas · scikit-learn |
+| [OSUT App](https://github.com/osutcj/osut-app) | Student organization platform for news, events, resources, and communication | React · JavaScript · Python |
+| [VS-CodeServer](https://github.com/ionutzzzzz/VS-CodeServer) | Lightweight launcher for self-hosted VS Code servers | HTML · CSS · JavaScript |
 
-`Python` · `Rust` · `Dart` · `C/C++` · `JavaScript` · `Flutter` · `Jupyter` · `Git`
+## 03 / Toolbox
 
-## A bit more
+<p>
+  <img src="https://img.shields.io/badge/Python-19324D?style=flat-square&logo=python&logoColor=FFD43B" alt="Python" />
+  <img src="https://img.shields.io/badge/Rust-24292E?style=flat-square&logo=rust&logoColor=white" alt="Rust" />
+  <img src="https://img.shields.io/badge/Dart-173B57?style=flat-square&logo=dart&logoColor=54C5F8" alt="Dart" />
+  <img src="https://img.shields.io/badge/Flutter-173B57?style=flat-square&logo=flutter&logoColor=54C5F8" alt="Flutter" />
+  <img src="https://img.shields.io/badge/JavaScript-3B3518?style=flat-square&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/Jupyter-482C1B?style=flat-square&logo=jupyter&logoColor=F37726" alt="Jupyter" />
+  <img src="https://img.shields.io/badge/Git-3B2420?style=flat-square&logo=git&logoColor=F05032" alt="Git" />
+</p>
 
-- I enjoy learning by building projects across different areas of computing.
-- I contribute to student and community projects, including [OSUT Cluj's app](https://github.com/osutcj/osut-app).
-- Most of my repositories are experiments and works in progress; take a look around.
+I like moving between layers: shaping a problem, building the core, and making the result usable. My projects are learning-in-public—feedback and collaboration are welcome.
 
 ---
 
 <div align="center">
 
-📍 Cluj-Napoca, Romania · [Explore my repositories](https://github.com/ionutzzzzz?tab=repositories)
+**Cluj-Napoca, Romania** · [Browse all projects](https://github.com/ionutzzzzz?tab=repositories)
 
 </div>
