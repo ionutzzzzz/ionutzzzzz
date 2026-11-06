@@ -136,6 +136,15 @@ I’m especially interested in the seam between **high-performance computation**
 
 <sub>Language percentages reflect public repository code volume; they are a rough snapshot, not a measure of skill.</sub>
 
+## 06 / Contribution calendar
+
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://ghchart.xqsit94.in/dark:46e6d2/ionutzzzzz" />
+  <img src="https://ghchart.xqsit94.in/light:8c7cff/ionutzzzzz" alt="GitHub contribution calendar with custom teal and violet colors" />
+</picture>
+</div>
+
 ---
 
 <div align="center">
