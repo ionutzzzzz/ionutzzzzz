@@ -30,11 +30,22 @@
     <circle cx="720" cy="76" r="3"/><circle cx="882" cy="59" r="3"/><circle cx="1004" cy="131" r="3"/>
     <circle cx="850" cy="278" r="3"/><circle cx="985" cy="224" r="3"/><circle cx="1086" cy="183" r="3"/>
   </g>
+  <g>
+    <rect x="770" y="92" width="350" height="154" rx="10" fill="#07111f" fill-opacity=".88" stroke="#8c7cff" stroke-opacity=".48"/>
+    <path d="M770 122h350" stroke="#9bbbe8" stroke-opacity=".16"/>
+    <circle cx="790" cy="107" r="4" fill="#ff6b8a"/><circle cx="805" cy="107" r="4" fill="#f6c85f"/><circle cx="820" cy="107" r="4" fill="#46e6d2"/>
+  </g>
   <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
     <text x="70" y="83" fill="#72eadc" font-size="14" letter-spacing="4">IONUTZZZZZ / ENGINEERING PROFILE</text>
     <text x="66" y="166" fill="#f0f5ff" font-size="65" font-weight="700" letter-spacing="-2">Ionuț</text>
     <rect x="70" y="191" width="76" height="3" rx="1.5" fill="url(#glow)"/>
     <text x="70" y="229" fill="#b8c8e0" font-size="18" letter-spacing="2">SOFTWARE SYSTEMS  ·  APPLIED COMPUTING</text>
+    <text x="838" y="111" fill="#7186a5" font-size="10" letter-spacing="1">unilab / core.rs</text>
+    <text x="792" y="148" fill="#8c7cff" font-size="12">pub fn</text>
+    <text x="839" y="148" fill="#f0f5ff" font-size="12">simulate(model: &amp;Model)</text>
+    <text x="807" y="171" fill="#7186a5" font-size="12">→</text>
+    <text x="830" y="171" fill="#46e6d2" font-size="12">Result&lt;State, Error&gt;</text>
+    <text x="792" y="204" fill="#7186a5" font-size="11">// compute locally · expose through FFI / Wasm</text>
     <text x="70" y="296" fill="#7186a5" font-size="12" letter-spacing="2">CLJ, RO  /  BUILD • MEASURE • ITERATE</text>
     <text x="1092" y="296" fill="#7186a5" font-size="12" text-anchor="end">EST. CURIOSITY // ON</text>
   </g>
